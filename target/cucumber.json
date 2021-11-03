@@ -1,0 +1,266 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3292000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigates to url",
+            "match": {
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.navigatesToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-02T23:59:07.875Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3316000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ProteinTech.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "verify that user can open main tabs",
+        "description": "",
+        "id": "main-tabs-on-home-page;verify-that-user-can-open-main-tabs;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 677000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ProteinTech.step_definitions.Hooks.quit(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 289000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify user can see main tabs",
+            "match": {
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.verifyUserCanSeeMainTabs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click to \"Our Technologies\" tabs",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Our Technologies\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.clickToTabs(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2035000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify that the \"Our Technologies\" is opened",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Our Technologies\"",
+                  "offset": 16
+                }
+              ],
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.verifyThatTheIsOpened(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user_story1"
+          },
+          {
+            "name": "@testCase1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2300000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigates to url",
+            "match": {
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.navigatesToUrl()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-02T23:59:17.659Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1516000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ProteinTech.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "verify that user can open Software Development section",
+        "description": "",
+        "id": "main-tabs-on-home-page;verify-that-user-can-open-software-development-section;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 681000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.ProteinTech.step_definitions.Hooks.quit(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2041000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "scroll down to the page",
+            "match": {
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.scrollDownToThePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "verify Open roles section is present",
+            "match": {
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.verifyOpenRolesSectionIsPresent()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 44000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "verify that \"iOS Developer\" position is under the Software Development section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iOS Developer\"",
+                  "offset": 12
+                }
+              ],
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.verifyThatPositionIsUnderTheSoftwareDevelopmentSection(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "click to \"iOS Developer\" section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"iOS Developer\"",
+                  "offset": 9
+                }
+              ],
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.clickTo(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2675000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "verify the new tab is opened",
+            "match": {
+              "location": "com.ProteinTech.step_definitions.MyStepdefs.verifyTheNewTabIsOpened()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@user_story1"
+          },
+          {
+            "name": "@testCase2"
+          }
+        ]
+      }
+    ],
+    "name": "Main tabs on home page",
+    "description": "",
+    "id": "main-tabs-on-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/UserStory1.feature",
+    "tags": [
+      {
+        "name": "@user_story1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
